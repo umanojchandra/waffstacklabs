@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaffStack Labs – Stack Your Happiness</title>
+    <meta name="description" content="Premium Belgian Waffles, Pancakes & Milkshakes. Handcrafted fresh daily in Hyderabad.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Waff<span>Stack</span> Labs</div>
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#location">Find Us</a></li>
+            </ul>
+            <a href="https://wa.me/919876543210" class="btn-order" target="_blank">Order Now</a>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#location">Find Us</a></li>
+                <li><a href="https://wa.me/919876543210">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">🧇 Belgian Waffle Specialists</div>
+            <h1 class="hero-title">Stack Your<br><span class="hero-accent">Happiness,</span><br>One Bite at a Time</h1>
+            <p class="hero-subtitle">Crispy on the outside, fluffy on the inside — handcrafted Belgian waffles, pancakes & milkshakes that make every moment delicious.</p>
+            <div class="hero-cta">
+                <a href="#menu" class="btn-primary">Explore Menu</a>
+                <a href="#location" class="btn-secondary">Find Us</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-image-wrap">
+                <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=600&q=80" alt="Belgian Waffles" class="hero-img">
+                <div class="float-badge b1">⭐ 4.9 Rating</div>
+                <div class="float-badge b2">🔥 Bestseller</div>
+                <div class="float-badge b3">🧇 Fresh Daily</div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,60 C360,100 1080,0 1440,60 L1440,100 L0,100 Z" fill="#FFF8F0"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item"><span class="stat-num" data-target="15">0</span><span class="stat-sym">+</span><p>Waffle Varieties</p></div>
+                <div class="stat-item"><span class="stat-num" data-target="500">0</span><span class="stat-sym">+</span><p>Happy Customers Daily</p></div>
+                <div class="stat-item"><span class="stat-num" data-target="3">0</span><span class="stat-sym">+</span><p>Outlets</p></div>
+                <div class="stat-item"><span class="stat-num" data-target="4">0</span><span class="stat-sym">.9 ⭐</span><p>Star Rating</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">Our Menu</span>
+                <h2>Made Fresh, <span class="accent">Served Hot</span></h2>
+                <p>Every item crafted with love using premium ingredients</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="tab active" data-tab="waffles">🧇 Waffles</button>
+                <button class="tab" data-tab="pancakes">🥞 Pancakes</button>
+                <button class="tab" data-tab="milkshakes">🥤 Milkshakes</button>
+            </div>
+            <div class="menu-grid">
+                <!-- WAFFLES -->
+                <div class="card" data-cat="waffles">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=400&q=80" alt="Classic Butter Waffle"><span class="tag-best">Bestseller</span></div>
+                    <div class="card-body"><h3>Classic Butter Waffle</h3><p>Golden Belgian waffle with creamy butter, powdered sugar & maple syrup</p><div class="card-foot"><span class="price">₹149</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <div class="card" data-cat="waffles">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=400&q=80" alt="Nutella Dream"></div>
+                    <div class="card-body"><h3>Nutella Dream</h3><p>Crispy waffle loaded with Nutella, sliced strawberries & whipped cream</p><div class="card-foot"><span class="price">₹199</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <div class="card" data-cat="waffles">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?w=400&q=80" alt="Berry Blast"><span class="tag-new">New</span></div>
+                    <div class="card-body"><h3>Berry Blast</h3><p>Fresh mixed berries, honey drizzle & vanilla ice cream on a crisp waffle</p><div class="card-foot"><span class="price">₹179</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <div class="card" data-cat="waffles">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&q=80" alt="Choco Overload"></div>
+                    <div class="card-body"><h3>Choco Overload</h3><p>Double chocolate waffle with dark chocolate sauce, brownie bits & cream</p><div class="card-foot"><span class="price">₹189</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <!-- PANCAKES -->
+                <div class="card hidden" data-cat="pancakes">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80" alt="Fluffy Stack"><span class="tag-best">Bestseller</span></div>
+                    <div class="card-body"><h3>Fluffy Stack</h3><p>Three layers of cloud-soft pancakes with butter & pure maple syrup</p><div class="card-foot"><span class="price">₹129</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <div class="card hidden" data-cat="pancakes">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80" alt="Blueberry Delight"></div>
+                    <div class="card-body"><h3>Blueberry Delight</h3><p>Fluffy pancakes bursting with fresh blueberries & cream cheese drizzle</p><div class="card-foot"><span class="price">₹159</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <div class="card hidden" data-cat="pancakes">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?w=400&q=80" alt="Banana Caramel"><span class="tag-new">New</span></div>
+                    <div class="card-body"><h3>Banana Caramel</h3><p>Warm pancakes with sliced bananas, caramel sauce & toasted almonds</p><div class="card-foot"><span class="price">₹149</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <!-- MILKSHAKES -->
+                <div class="card hidden" data-cat="milkshakes">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1553787434-dd9eb41ea176?w=400&q=80" alt="Classic Vanilla"><span class="tag-best">Bestseller</span></div>
+                    <div class="card-body"><h3>Classic Vanilla</h3><p>Thick, creamy vanilla shake made with real vanilla beans & premium milk</p><div class="card-foot"><span class="price">₹149</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <div class="card hidden" data-cat="milkshakes">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&q=80" alt="Oreo Crunch"></div>
+                    <div class="card-body"><h3>Oreo Crunch</h3><p>Indulgent Oreo shake blended with ice cream & topped with crushed cookies</p><div class="card-foot"><span class="price">₹169</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+                <div class="card hidden" data-cat="milkshakes">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80" alt="Strawberry Rush"><span class="tag-new">New</span></div>
+                    <div class="card-body"><h3>Strawberry Rush</h3><p>Fresh strawberry shake with real fruit chunks & whipped cream topping</p><div class="card-foot"><span class="price">₹159</span><button class="add-btn">+ Add</button></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-wave">
+            <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,40 C360,100 1080,0 1440,50 L1440,100 L0,100 Z" fill="#3D1C02"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- SIGNATURE -->
+    <section class="signature-section">
+        <div class="container">
+            <div class="section-head light">
+                <span class="tag light">Chef's Special</span>
+                <h2>Our <span class="accent-gold">Signature</span> Creations</h2>
+                <p>Handcrafted recipes that set us apart</p>
+            </div>
+            <div class="sig-grid">
+                <div class="sig-card">
+                    <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=500&q=80" alt="The Stack King">
+                    <div class="sig-overlay"><h3>The Stack King</h3><p>Triple-decker waffle with 5 toppings</p><span>₹299</span></div>
+                </div>
+                <div class="sig-card large">
+                    <img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=800&q=80" alt="Mega Choco Tower">
+                    <div class="sig-overlay"><h3>Mega Choco Tower</h3><p>Six pancakes, four sauces, two ice cream scoops</p><span>₹349</span></div>
+                </div>
+                <div class="sig-card">
+                    <img src="https://images.unsplash.com/photo-1553787434-dd9eb41ea176?w=500&q=80" alt="Galaxy Shake">
+                    <div class="sig-overlay"><h3>Galaxy Shake</h3><p>Our viral space-themed milkshake with surprise layers</p><span>₹249</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story-section" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-left">
+                    <span class="tag">Our Story</span>
+                    <h2>Born from a <span class="accent">Love for Waffles</span></h2>
+                    <p>WaffStack Labs started as a small weekend experiment — two friends, a Belgian waffle iron, and a passion for creating the perfect bite. What began in a home kitchen quickly turned into a community obsession.</p>
+                    <p>Today, we craft every waffle, pancake, and milkshake with the same love and precision as that very first batch. No shortcuts. No compromises. Just pure, honest food made to make you smile.</p>
+                    <div class="values">
+                        <div class="val"><div class="val-icon">🌾</div><div><h4>Fresh Ingredients</h4><p>Sourced daily, never frozen</p></div></div>
+                        <div class="val"><div class="val-icon">👨‍🍳</div><div><h4>Made to Order</h4><p>Every item crafted fresh</p></div></div>
+                        <div class="val"><div class="val-icon">💛</div><div><h4>Made with Love</h4><p>Passion in every bite</p></div></div>
+                    </div>
+                </div>
+                <div class="story-right">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Our Story">
+                    <div class="story-badge">Est. 2022</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">Gallery</span>
+                <h2>Food <span class="accent">Worth Staring At</span></h2>
+                <p>Follow us @waffstacklabs for daily deliciousness</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="g-item tall"><img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=400&q=80" alt=""><div class="g-hover">🧇</div></div>
+                <div class="g-item"><img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80" alt=""><div class="g-hover">🥞</div></div>
+                <div class="g-item"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80" alt=""><div class="g-hover">🥤</div></div>
+                <div class="g-item wide"><img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=800&q=80" alt=""><div class="g-hover">✨</div></div>
+                <div class="g-item"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&q=80" alt=""><div class="g-hover">🍓</div></div>
+                <div class="g-item"><img src="https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?w=400&q=80" alt=""><div class="g-hover">🫐</div></div>
+            </div>
+            <div class="gallery-cta">
+                <a href="https://instagram.com/waffstacklabs" target="_blank" class="btn-insta">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    Follow @waffstacklabs
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location-section" id="location">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">Find Us</span>
+                <h2>Come <span class="accent">Visit Us</span></h2>
+                <p>We'd love to serve you in person</p>
+            </div>
+            <div class="loc-grid">
+                <div class="loc-card">
+                    <div class="loc-icon">📍</div>
+                    <h3>Main Outlet</h3>
+                    <p>123, Waffle Street, Banjara Hills<br>Hyderabad, Telangana 500034</p>
+                    <a href="https://maps.google.com" target="_blank" class="btn-dir">Get Directions →</a>
+                </div>
+                <div class="loc-card">
+                    <div class="loc-icon">🕐</div>
+                    <h3>Opening Hours</h3>
+                    <p>Mon – Fri: 10 AM – 10 PM<br>Sat – Sun: 9 AM – 11 PM</p>
+                    <p class="highlight">🎉 Weekend Specials Available!</p>
+                </div>
+                <div class="loc-card">
+                    <div class="loc-icon">📞</div>
+                    <h3>Order & Enquiries</h3>
+                    <p>WhatsApp / Call us at<br><strong>+91 98765 43210</strong></p>
+                    <a href="https://wa.me/919876543210" target="_blank" class="btn-wa">WhatsApp Us →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="f-brand">
+                    <div class="f-logo">Waff<span>Stack</span> Labs</div>
+                    <p>Crafting happiness one waffle at a time. Made with love in Hyderabad.</p>
+                    <div class="f-social">
+                        <a href="https://instagram.com/waffstacklabs" target="_blank">Instagram</a>
+                        <a href="https://facebook.com/waffstacklabs" target="_blank">Facebook</a>
+                        <a href="https://wa.me/919876543210" target="_blank">WhatsApp</a>
+                    </div>
+                </div>
+                <div class="f-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#location">Find Us</a></li>
+                    </ul>
+                </div>
+                <div class="f-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#menu">Belgian Waffles</a></li>
+                        <li><a href="#menu">Pancakes</a></li>
+                        <li><a href="#menu">Milkshakes</a></li>
+                        <li><a href="#menu">Chef's Specials</a></li>
+                    </ul>
+                </div>
+                <div class="f-contact">
+                    <h4>Contact</h4>
+                    <p>📍 Banjara Hills, Hyderabad</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>📧 hello@waffstacklabs.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 WaffStack Labs. All rights reserved. Made with 💛 in Hyderabad.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
