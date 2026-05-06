@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 210" fill="none">
+  <g stroke="#6C2AB8">
+    <!-- Waffle grid (square rotated 45°) centered at 100,88 -->
+    <g transform="translate(100,88) rotate(45)">
+      <rect x="-42" y="-42" width="84" height="84" rx="4" stroke-width="4.5"/>
+      <line x1="-14" y1="-42" x2="-14" y2="42" stroke-width="2.5"/>
+      <line x1="14" y1="-42" x2="14" y2="42" stroke-width="2.5"/>
+      <line x1="-42" y1="-14" x2="42" y2="-14" stroke-width="2.5"/>
+      <line x1="-42" y1="14" x2="42" y2="14" stroke-width="2.5"/>
+    </g>
+    <!-- Stack/3D effect -->
+    <g transform="translate(108,96) rotate(45)" stroke-width="3" opacity="0.28">
+      <rect x="-42" y="-42" width="84" height="84" rx="4"/>
+    </g>
+    <!-- Top node -->
+    <rect x="94" y="4" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <line x1="100" y1="16" x2="100" y2="29" stroke-width="2.5"/>
+    <!-- Bottom node -->
+    <rect x="94" y="154" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <line x1="100" y1="147" x2="100" y2="154" stroke-width="2.5"/>
+    <!-- Left node -->
+    <rect x="16" y="82" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <line x1="28" y1="88" x2="40" y2="88" stroke-width="2.5"/>
+    <!-- Right node -->
+    <rect x="172" y="82" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <line x1="160" y1="88" x2="172" y2="88" stroke-width="2.5"/>
+    <!-- Top-left node -->
+    <rect x="34" y="38" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <path d="M40,50 Q48,60 56,66" stroke-width="2.5"/>
+    <!-- Top-right node -->
+    <rect x="154" y="38" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <path d="M160,50 Q152,60 144,66" stroke-width="2.5"/>
+    <!-- Bottom-left node -->
+    <rect x="34" y="120" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <path d="M40,120 Q48,112 56,106" stroke-width="2.5"/>
+    <!-- Bottom-right node -->
+    <rect x="154" y="120" width="12" height="12" rx="2.5" fill="#6C2AB8" stroke="none"/>
+    <path d="M160,120 Q152,112 144,106" stroke-width="2.5"/>
+  </g>
+</svg>

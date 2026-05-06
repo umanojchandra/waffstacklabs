@@ -32,9 +32,11 @@ body { font-family: 'Montserrat', sans-serif; background: var(--light); color: v
 }
 .navbar.scrolled { box-shadow: 0 4px 30px rgba(108,42,184,0.1); }
 .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 70px; }
-.logo { font-size: 1.3rem; font-weight: 900; color: var(--navy); letter-spacing: -0.5px; line-height: 1.1; }
-.logo span { color: var(--purple); }
-.logo small { display: block; font-size: 0.6rem; font-weight: 600; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo-icon { height: 44px; width: auto; }
+.logo-text { font-size: 1.1rem; font-weight: 900; color: var(--navy); letter-spacing: -0.5px; line-height: 1.1; }
+.logo-text span { color: var(--purple); }
+.logo-text small { display: block; font-size: 0.55rem; font-weight: 600; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
 .nav-links { display: flex; list-style: none; gap: 32px; }
 .nav-links a { text-decoration: none; color: var(--text); font-weight: 600; font-size: 0.9rem; transition: color 0.2s; }
 .nav-links a:hover { color: var(--purple); }
@@ -178,9 +180,11 @@ body { font-family: 'Montserrat', sans-serif; background: var(--light); color: v
 /* ── FOOTER ── */
 .footer { background: var(--navy); color: rgba(255,255,255,0.75); padding: 80px 0 0; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 60px; }
-.f-logo { font-size: 1.5rem; font-weight: 900; color: var(--white); margin-bottom: 6px; }
+.f-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+.f-logo-icon { height: 52px; width: auto; filter: brightness(0) invert(1); }
+.f-logo div { font-size: 1.3rem; font-weight: 900; color: var(--white); line-height: 1.1; }
 .f-logo span { color: var(--purple-light); }
-.f-logo small { display: block; font-size: 0.65rem; font-weight: 600; color: rgba(255,255,255,0.5); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+.f-logo small { display: block; font-size: 0.6rem; font-weight: 600; color: rgba(255,255,255,0.5); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
 .f-brand p { font-size: 0.88rem; line-height: 1.7; margin-bottom: 22px; margin-top: 12px; }
 .f-social { display: flex; gap: 16px; }
 .f-social a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.88rem; font-weight: 600; transition: color 0.2s; }
