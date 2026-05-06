@@ -8,12 +8,12 @@
     padding: 120px 0 80px; position: relative; overflow: hidden;
 }
 .fr-hero::before { content: ''; position: absolute; top: -20%; right: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(108,42,184,0.1) 0%, transparent 70%); border-radius: 50%; }
-.fr-hero-inner { display: flex; flex-direction: column; gap: 60px; }
+.fr-hero-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 .fr-hero-content .tag { margin-bottom: 16px; }
-.fr-hero-content h1 { font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 900; color: var(--navy); margin-bottom: 20px; letter-spacing: -1px; line-height: 1.1; }
-.fr-hero-content p { font-size: 1.05rem; color: var(--muted); line-height: 1.75; margin-bottom: 36px; max-width: 620px; }
+.fr-hero-content h1 { font-size: clamp(2rem, 3.5vw, 3.2rem); font-weight: 900; color: var(--navy); margin-bottom: 20px; letter-spacing: -1px; line-height: 1.1; }
+.fr-hero-content p { font-size: 1rem; color: var(--muted); line-height: 1.75; margin-bottom: 36px; }
 .fr-hero-cta { display: flex; gap: 16px; flex-wrap: wrap; }
-.fr-hero-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }
+.fr-hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .fr-stat { background: var(--white); padding: 28px 20px; border-radius: 20px; text-align: center; box-shadow: var(--shadow); border-top: 4px solid var(--purple); }
 .fr-stat span { display: block; font-size: 2rem; font-weight: 900; color: var(--purple); margin-bottom: 6px; }
 .fr-stat p { font-size: 0.85rem; color: var(--muted); font-weight: 600; }
@@ -71,14 +71,13 @@
 /* Responsive */
 @media (max-width: 1024px) {
     .fr-why-grid { grid-template-columns: repeat(2,1fr); }
-    .fr-hero-stats { grid-template-columns: repeat(2,1fr); }
 }
 @media (max-width: 768px) {
+    .fr-hero-inner { grid-template-columns: 1fr; }
     .fr-enquire-grid { grid-template-columns: 1fr; gap: 48px; }
     .fr-why-grid { grid-template-columns: 1fr; }
     .fr-steps-grid { flex-direction: column; align-items: center; }
     .fr-step-arrow { transform: rotate(90deg); padding: 8px 0; }
-    .fr-hero-stats { grid-template-columns: repeat(2,1fr); }
     .form-row { grid-template-columns: 1fr; }
     .fr-form { padding: 28px 20px; }
 }
