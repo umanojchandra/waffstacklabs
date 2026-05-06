@@ -31,9 +31,9 @@ body { font-family: 'Montserrat', sans-serif; background: var(--light); color: v
     transition: box-shadow 0.3s;
 }
 .navbar.scrolled { box-shadow: 0 4px 30px rgba(108,42,184,0.1); }
-.nav-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 84px; }
+.nav-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 76px; }
 .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-.logo-icon { height: 68px; width: auto; }
+.logo-icon { height: 48px; width: auto; }
 .logo-text { font-size: 1.45rem; font-weight: 900; color: var(--navy); letter-spacing: -0.5px; line-height: 1.1; }
 .logo-text span { color: var(--purple); }
 .logo-text small { display: block; font-size: 0.7rem; font-weight: 600; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
