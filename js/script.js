@@ -1,3 +1,26 @@
+// Custom waffle cursor
+const cursor = document.createElement('div');
+cursor.className = 'waffle-cursor';
+cursor.innerHTML = '<img src="logo.svg" alt="">';
+document.body.appendChild(cursor);
+
+let mouseX = 0, mouseY = 0, curX = 0, curY = 0;
+document.addEventListener('mousemove', e => { mouseX = e.clientX; mouseY = e.clientY; });
+(function animateCursor() {
+    curX += (mouseX - curX) * 0.18;
+    curY += (mouseY - curY) * 0.18;
+    cursor.style.left = curX + 'px';
+    cursor.style.top = curY + 'px';
+    requestAnimationFrame(animateCursor);
+})();
+
+document.addEventListener('mousedown', () => cursor.classList.add('clicking'));
+document.addEventListener('mouseup', () => cursor.classList.remove('clicking'));
+document.querySelectorAll('a, button').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('hovering'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('hovering'));
+});
+
 // Navbar scroll effect
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
